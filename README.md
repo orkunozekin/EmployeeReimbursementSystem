@@ -1,6 +1,22 @@
 # Atlas Reimbursement System #
 
-<p>Atlas Reimbursement System provides services for managing employees' reimbursements.</p>
+<p>Atlas Reimbursement System provides services for managing employees' reimbursement.</p>
+
+## Technologies Utilized ##
+
+<ul>
+    <li>Java</li>
+    <li>Servlets</li>
+    <li>Maven</li>
+    <li>AWS RDS</li>
+    <li>PostgreSQL</li>
+    <li>JavaScript</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Git</li>
+</ul>
+
+<hr>
 
 ## User Stories ##
 <ul>
@@ -21,6 +37,8 @@
     <li>As a finance manager, I can see all employees' reimbursement ticket history(pending, approved, denied</li>
     <li>As a finance manager, I can resolve reimbursement requests by approval or denial</li>
 </ul>
+
+<hr>
 
 
 ## Screenshots <br>

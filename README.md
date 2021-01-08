@@ -8,6 +8,8 @@
     <li>As a user, I can logout</li>
 </ul>
 
+<hr>
+
 <ul>
     <li>As an employee, I can see my reimbursement ticket history(pending, approved, denied)</li>
     <li>As an employee, I can submit a new reimbursement request ticket</li>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="/ERS/resources/css/index.css">
+<title>Employee Reimbursement</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/ERS/">ATLAS ERS</a>
+			<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navbarText"
+				aria-controls="navbarText" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a id="username" class="nav-link active"
+						aria-current="page" href="#"></a></li>
+					<li class="nav-item"><a style="cursor: pointer;" onclick="logout()" class="nav-link">Logout</a></li>
+				
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Reimbursement Type</th>
+				<th scope="col">Amount</th>
+				<th scope="col">Description</th>
+				<th scope="col">Status</th>
+			</tr>
+		</thead>
+		<tbody id="table-body">
+			
+		</tbody>
+	</table>
+
+	<div id="submit-reimb-wrapper">
+		<h2>Submit Reimbursement</h2>
+		<form id="form" action="post">
+			<label for="amount">Amount</label> <br> <input name="amount"
+				type="number" id="amount" placeholder="Request Amount" /> <br>
+			<br> <label for="description">Description</label> <br>
+			<textarea form="form" name="description" id="description"
+				placeholder="Description"></textarea>
+			<br>
+			<!-- <label for="receipt">Reimbursement Document</label>
+		<input name="receipt" type="image" id="receipt" src="/wp-content/uploads/sendform.png" placeholder="Insert an image" alt="receipt image"/> <br> -->
+
+			<label for="reimb_type">Reimbursement Type</label> <br> <select
+				id="reimb_type" name="type">
+				<option value="1">Lodging</option>
+				<option value="2">Travel</option>
+				<option value="3">Food</option>
+				<option value="4">Other</option>
+			</select> <br> <br>
+
+			<button name="submit" type="submit" id="submit-button">Submit</button>
+		</form>
+	</div>
+
+
+
+	<script type="text/javascript"
+		src="/ERS/resources/javascript/employee.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+</body>
+</html>

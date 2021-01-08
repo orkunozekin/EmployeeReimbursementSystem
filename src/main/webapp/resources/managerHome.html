@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="/ERS/resources/css/index.css">
+<title>Finance Manager</title>
+</head>
+<body>
+
+	<div>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">ATLAS ERS</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarText"
+					aria-controls="navbarText" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarText">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item"><a id="username" class="nav-link active"
+							aria-current="page" href="#"></a></li>
+						<li class="nav-item logout"><a onclick="logout()" class="nav-link">Logout</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<h2 class="manager-h2" style="text-align: center">All Reimbursement Requests</h2> <br />
+		<table class="table">
+			<thead>
+				<tr>
+
+					<th scope="col">#</th>
+					<th scope="col">Reimbursement Type</th>
+					<th scope="col">Amount</th>
+					<th scope="col">Description</th>
+					<th scope="col">Resolve</th>
+					<th scope="col">Status</th>
+
+				</tr>
+			</thead>
+			<tbody id="table-body">
+
+			</tbody>
+		</table>
+	</div>
+
+
+	<script type="text/javascript"
+		src="/ERS/resources/javascript/manager.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+</body>
+</html>

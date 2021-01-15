@@ -119,7 +119,7 @@
 
 <hr>
 
-## Usage ## <br>
+## Usage ##
 <ol>
     <li>Login with a user's credential that was pre-populated in the database.</li>
     <li>Depending on the user account type, the app will be redirected to either a Finance Manager's account or an Eomployee's account.</li>

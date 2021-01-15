@@ -48,7 +48,6 @@
 
 <hr>
 
-
 ## Getting Started ##
 
 <ol>
@@ -112,10 +111,21 @@
             )</li>
         </ul>
     </li>    
-    <li>Pre-populate the user table in the database</li>    
+    <li>Pre-populate the tables in the database</li>    
     </li>
     <li>Add Apache Tomcat to the Servers in the application's workspace</li>
     <li>Add the application(project) to the Tomcat server</li>
+</ol>
+
+<hr>
+
+## Usage ## <br>
+<ol>
+    <li>Login with a user's credential that was pre-populated in the database.</li>
+    <li>Depending on the user account type, the app will be redirected to either a Finance Manager's account or an Eomployee's account.</li>
+    <li>As an employee, users can see all of their past reimbursement requests and submit a new reimbursement request.</li>
+    <li>As a finance manager, users can see all employees' past and currently pending reimbursement request, and resolve it by either denying or accepting the request.</li>
+    <li>Both type of account users can logout.</li>
 </ol>
 
 ## Application In Action: <br>
